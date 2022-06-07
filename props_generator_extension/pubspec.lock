@@ -284,9 +284,11 @@ packages:
   props_generator_annotation:
     dependency: "direct main"
     description:
-      path: "../props_generator_annotation"
-      relative: true
-    source: path
+      path: props_generator_annotation
+      ref: HEAD
+      resolved-ref: ea3b74bc0241a6b876ec58310ef723de9a51523d
+      url: "https://github.com/Olega95/setPropsGenerator.git"
+    source: git
     version: "1.0.0"
   pub_semver:
     dependency: transitive

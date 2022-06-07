@@ -10,7 +10,9 @@ environment:
 dependencies:
   source_gen: ^1.2.2
   props_generator_annotation:
-    path: ../props_generator_annotation
+    git:
+      url: https://github.com/Olega95/setPropsGenerator.git
+      path: props_generator_annotation
   path: ^1.8.0
 
 dev_dependencies:
