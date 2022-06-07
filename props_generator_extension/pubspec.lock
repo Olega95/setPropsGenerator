@@ -281,6 +281,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.5.0"
+  props_generator_annotation:
+    dependency: "direct main"
+    description:
+      path: "../props_generator_annotation"
+      relative: true
+    source: path
+    version: "1.0.0"
   pub_semver:
     dependency: transitive
     description:

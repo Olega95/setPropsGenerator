@@ -1,9 +1,9 @@
 import 'package:build/build.dart';
 import 'package:source_gen/source_gen.dart';
 import 'package:analyzer/dart/element/element.dart';
+import 'package:props_generator_annotation/props_generator_annotation.dart';
 
 import 'helpers.dart';
-import 'set_prop_extension.dart';
 
 class SetPropsBuilder extends GeneratorForAnnotation<SetProps> {
   @override

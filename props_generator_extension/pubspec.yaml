@@ -1,6 +1,7 @@
-name: props_generator
+name: props_generator_extension
 description: A sample command-line application.
 version: 1.0.0
+publish_to: none
 # homepage: https://www.example.com
 
 environment:
@@ -8,6 +9,8 @@ environment:
 
 dependencies:
   source_gen: ^1.2.2
+  props_generator_annotation:
+    path: ../props_generator_annotation
   path: ^1.8.0
 
 dev_dependencies:
