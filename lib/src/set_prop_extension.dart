@@ -1,0 +1,3 @@
+class SetProps {
+  const SetProps();
+}

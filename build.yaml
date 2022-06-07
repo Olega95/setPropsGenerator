@@ -1,0 +1,6 @@
+builders:
+  setPropsBuilder:
+    import: 'package:props_generator/props_generator.dart'
+    builder_factories: ['setPropsBuilder']
+    auto_apply: dependents
+    build_extensions: {".dart": [".info.part"]}
