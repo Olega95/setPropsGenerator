@@ -25,7 +25,7 @@ class SetPropsBuilder extends GeneratorForAnnotation<SetProps> {
         final element = list[i];
 
         buffer.writeln('          case $i:');
-        buffer.writeln('            ${element.name} = ${isInt(element) ? 'int' : 'double'}.parse(value);');
+        buffer.writeln('            ${element.name} = ${isInt(element) ? 'int' : 'double'}.tryParse(value);');
         buffer.writeln('            return;');
       }
       buffer.writeln('          default:');
